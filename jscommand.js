@@ -116,13 +116,19 @@
 //Ajouter une ville au tableau
 //Supprimer la ville à l'indice 2
 
-//var villes = ["Marseille", "Bordeaux", "Montpellier", "Nice", "Paris"]
-//console.log(villes[3]);
+//const villes5 = ["Marseille", "Bordeaux", "Montpellier", "Nice", "Saint-etienne"]
+//console.log(villes5);
 
-//var villes = ["Marseille", "Bordeaux", "Montpellier", "Nice", "Paris", "Auxerre"]
-//console.log(villes[5]);
+//console.log(villes5[3]);
 
-//var villes = ["Marseille", "Bordeaux", "Nice", "Paris", "Auxerre"]
+//villes5.push('Lille');
+//console.log(villes5);
+
+
+
+//delete villes5[2]
+//console.log(villes5);
+
 
 //----------------------------------
 
@@ -132,9 +138,60 @@
 //il faut boucler sur ce tableau. Parcours le tableau suivant afin de monter chaque
 //élément au carré et affiche le tableau.
 
-const array1 = [2, 4, 8];
+//const array1 = [2, 4, 8];
 
-array1.forEach(element => console.log(element));
 
-function carré(2, 4, 8);
-return 2 * 4 * 8;
+//for (let index = 0; index < 3; index++) {
+//    console.log(array1[index] * array1[index]);
+//}
+
+//------------------------------------------
+
+//Le tableau suivant indique les notes d'une promo lointaine !
+//Calculer la moyenne de cette promo et afficher le resultat
+
+//const promo = [12, 13, 17, 3, 14, 18];
+
+//const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+//console.log(promo.reduce(reducer) / 6);
+
+//------------------------------------------
+
+//les conditions
+
+//Déclarez une variable "age" avec la valeur de votre choix.
+//En utilisant les conditions 'if' et 'else' affichez :
+//peut voter si 'age' est supérieur ou égal à 18
+//ne peut pas voter si 'age' est inférieur à 18
+
+
+//let age = 27;
+
+
+//if (age > 18) {
+//   console.log('peut voter');
+//} else {
+//   console.log('ne peut pas voter');
+//}
+
+
+//---------------------------------------------------------
+
+// Afficher la date d'aujourd'hui avec javascript.
+// En utilisant les conditions 'if' et 'else' affichez :
+// "bonjour" si il est en 5h du matin et 17h
+// et "bonsoir" s'il est entre 17h et 5h du matin
+
+
+let date = "12 Novembre 2020";
+console.log(date);
+
+let hour = 4;
+
+
+if (hour > 4) {
+    console.log("bonjour");
+} else(hour > 17); {
+    console.log("bonsoir");
+}
